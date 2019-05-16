@@ -14,6 +14,16 @@ func main()  {
 	}
 
 	bar()
+
+	// Short declaration operator
+	x := 42
+	fmt.Println(x)
+	x = 99
+	fmt.Println(x)
+	y := 100 + 24
+	fmt.Println(y)
+	z := "James Bond!"
+	fmt.Println(z)
 }
 
 func foo(){
