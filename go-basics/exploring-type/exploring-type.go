@@ -11,7 +11,7 @@ var y = 42
 // Not a DYNAMIC programming language
 
 var z string = "Shaken, not stirred"
-var a string = `Bond said, "Shaken, not stirred"`
+var a   string = `Bond said, "Shaken, not stirred"`
 
 func main(){
 	fmt.Println(y)
